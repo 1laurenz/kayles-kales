@@ -25,15 +25,15 @@
 <body>
 	<!-- Navigation Sidebar (hidden by default) -->
 	<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-animate-left" id="mySidebar">
-		<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
-		<a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Nav Item One</a>
-		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nav Item Two</a>
-		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nav Item Three</a>
+		<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close</a>
+		<a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Kale Recipes</a>
+		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Kale Nutrition</a>
+		<!-- <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nav Item Three</a> -->
 	</nav>
 
 	<!-- Top menu -->
 	<div class="w3-top">
-		<div class="hamburger-position">
+		<div class="hamburger-position" id="mySidebar">
 			<div class="w3-button w3-padding-16 " onclick="w3_open()">&#9776;</div>
 			<!-- &#9776; is the Entity Code for the hamburger icon -->
 		</div>
@@ -60,11 +60,9 @@
 					<img src="img/chopped-kale.jpeg" alt="Chopped kale" />
 				</div>
 				<h3>Incorporating Kale In Your Everyday Meals</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-					et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita dolores officia assumenda
+					molestias eveniet, perferendis culpa quas sunt adipisci esse doloribus dignissimos dolor accusantium
+					perspiciatis ab ducimus officiis, a quaerat.</p>
 			</article>
 			<article>
 				<div class="outer-container">
@@ -73,22 +71,18 @@
 							<img src="img/kale-sandwich.avif" alt="Kale sandwich" />
 						</div> <!-- End of the image container -->
 						<h3>Kale Recipes</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero totam quis aliquid,
+							necessitatibus quam perspiciatis explicabo recusandae delectus repudiandae magnam quos
+							itaque nam harum possimus excepturi veritatis ad? Eveniet, excepturi?</p>
 					</div> <!-- End of the first inner container -->
 					<div class="inner-container"> <!-- Second inner container -->
 						<div class="image-container">
 							<img src="img/kale-salad.webp" alt="Kale salad" />
 						</div> <!-- End of the image container -->
 						<h3>Kale Nutrition Facts</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laudantium! Vero voluptatibus
+							dolorem ut vitae maxime repellat nobis enim quia officia dolorum at delectus quae aperiam
+							hic, porro laborum corporis.</p>
 					</div> <!-- End of the second inner container -->
 				</div> <!-- End of the outer container -->
 			</article>
@@ -144,7 +138,7 @@
 		}
 
 		function w3_close() {
-			document.getElementById("mySidebar").style.display = "none";
+			document.getElementById("mySidebar", "hamburger-position").style.display = "none";
 		}
 	</script>
 

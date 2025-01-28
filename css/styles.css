@@ -1,7 +1,7 @@
 body {
 	/* font-family: 'Murecho', sans-serif; */
 	font-family: Arial, Helvetica, sans-serif, sans-serif;
-	color: #666;
+	color: #121212;
 	font-size: 18px;
 	line-height: 1.5;
 }
@@ -131,7 +131,7 @@ h2,
 h3 {
 	/* font-family: 'Architects Daughter', cursive; */
 	font-family: Arial, Helvetica, sans-serif, sans-serif;
-	color: #427ac1;
+	color: #2f5e36;
 }
 
 h2,
@@ -161,7 +161,7 @@ nav {
 
 .w3-bar-item:link,
 .w3-bar-item:visited {
-	color: #427ac1;
+	color: #2f5e36;
 	text-decoration: none;
 }
 
@@ -233,7 +233,7 @@ article img {
 footer {
 	padding: 40px 0;
 	margin-top: 24px;
-	background-color: #a9a9a9;
+	background-color: #1a1a1a;
 }
 
 footer ol {
