@@ -25,10 +25,12 @@
 <body>
 	<!-- Navigation Sidebar (hidden by default) -->
 	<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-animate-left" id="mySidebar">
-		<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close</a>
-		<a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Kale Recipes</a>
-		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Kale Nutrition</a>
-		<!-- <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nav Item Three</a> -->
+		<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close ✖</a>
+		<a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Recipes</a>
+		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nutrional Facts</a>
+		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">FAQs</a>
 	</nav>
 
 	<!-- Top menu -->
@@ -41,7 +43,7 @@
 
 	<header>
 		<div class="header-bg-wrap"> <!-- Image as content not design -->
-			<img class="header-bg-image" src="img/placeholder-1920x500.png" alt="Text that describes the image">
+			<img class="header-bg-image" src="img/kale-spice.avif" alt="Seasoning kale">
 			<div class="header-content">
 				<h1>Kayle's Kales</span></h1>
 				<h2>Keep Calm and Kale On</h2>
@@ -77,7 +79,7 @@
 					</div> <!-- End of the first inner container -->
 					<div class="inner-container"> <!-- Second inner container -->
 						<div class="image-container">
-							<img src="img/kale-salad.webp" alt="Kale salad" />
+							<img src="img/kale-salad.avif" alt="Kale salad" />
 						</div> <!-- End of the image container -->
 						<h3>Kale Nutrition Facts</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laudantium! Vero voluptatibus
@@ -88,7 +90,7 @@
 			</article>
 			<article>
 				<div class="image-container">
-					<img src="img/placeholder-2400.png" alt="Something specific about the image" />
+					<img src="img/kayle-portrait.jpg" alt="Lady holding salad" />
 				</div>
 				<h3>About Me</h3>
 				<p>Hi, I’m Kayle! I’m passionate about all things kale. My mission is to show the world just how
@@ -107,19 +109,19 @@
 		<div class="bg-container">
 			<ol>
 				<li>
-					<a href="#" target="_blank">First footer item</a>
+					<a href="#" target="_blank">Home</a>
 				</li>
 				<li>
-					<a href="#" target="_blank">Second footer item</a>
+					<a href="#" target="_blank">Recipes</a>
 				</li>
 				<li>
-					<a href="#" target="_blank">Third footer item</a>
+					<a href="#" target="_blank">Nutrional Facts</a>
 				</li>
 				<li>
-					<a href="#" target="_blank">Fourth footer item</a>
+					<a href="#" target="_blank">Contact</a>
 				</li>
 				<li>
-					<a href="#" target="_blank">Last footer item</a>
+					<a href="#" target="_blank">FAQs</a>
 				</li>
 			</ol>
 		</div>
@@ -138,7 +140,7 @@
 		}
 
 		function w3_close() {
-			document.getElementById("mySidebar", "hamburger-position").style.display = "none";
+			document.getElementById("mySidebar").style.display = "none";
 		}
 	</script>
 
