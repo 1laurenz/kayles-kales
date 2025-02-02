@@ -264,6 +264,13 @@ a:active {
 	text-decoration: underline;
 }
 
+.footer-p {
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-size: 10px;
+}
+
 /* -- Code for the Cookie Compliance popover window -- */
 /*
 #cookiePopup {
