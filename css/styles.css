@@ -268,11 +268,15 @@ a:active {
 	text-decoration: underline;
 }
 
-.footer-p {
+footer p,
+footer .privacy {
 	color: white;
 	text-align: center;
-	font-style: italic;
 	font-size: 10px;
+}
+
+footer .privacy {
+	margin-bottom: 1rem;
 }
 
 /* -- Code for the Cookie Compliance popover window -- */
