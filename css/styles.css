@@ -130,7 +130,7 @@ h1,
 h2,
 h3 {
 	/* font-family: 'Architects Daughter', cursive; */
-	font-family: Arial, Helvetica, sans-serif, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	color: #2f5e36;
 }
 
@@ -228,6 +228,10 @@ article img {
 .image-container {
 	width: 70%;
 	margin: 0 auto;
+}
+
+.what-is img {
+	width: 650px;
 }
 
 footer {
