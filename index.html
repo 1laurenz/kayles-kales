@@ -9,7 +9,8 @@
 	<link rel="icon" href="img/kale-icon.png">
 
 	<meta name="description" content="" />
-	<meta name="keywords" content="icorporating kale, kale tips, kale meals, kale nutrition, kale recipes, kale facts, how to kale" />
+	<meta name="keywords"
+		content="icorporating kale, kale tips, kale meals, kale nutrition, kale recipes, kale facts, how to kale" />
 	<meta name="author" content="Kayle">
 	<meta name="google-site-verification" content="x2Kt2s_Rk5NO6rS8H-LYDWTbVwDtKnkmHgM7ZhHz5uE" />
 
@@ -32,11 +33,11 @@
 	<!-- Navigation Sidebar (hidden by default) -->
 	<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-animate-left" id="mySidebar">
 		<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close ✖</a>
-		<a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
-		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Recipes</a>
-		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nutrional Facts</a>
-		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
-		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">FAQs</a>
+		<a href="#kale-home" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+		<a href="#kale-recipes" onclick="w3_close()" class="w3-bar-item w3-button">Recipes</a>
+		<a href="#kale-nutrition" onclick="w3_close()" class="w3-bar-item w3-button">Nutrional Facts</a>
+		<a href="#about-me" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+		<!-- <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">FAQs</a> -->
 	</nav>
 
 	<!-- Top menu -->
@@ -51,7 +52,7 @@
 		<div class="header-bg-wrap"> <!-- Image as content not design -->
 			<img class="header-bg-image" src="img/kale-spice.avif" alt="Seasoning kale">
 			<div class="header-content">
-				<h1>Kayle's Kales</span></h1>
+				<h1 id="kale-home">Kayle's Kales</span></h1>
 				<h2>Keep Calm and Kale On</h2>
 			</div>
 		</div>
@@ -82,7 +83,7 @@
 						<div class="image-container">
 							<img src="img/kale-sandwich.avif" alt="Kale sandwich" />
 						</div> <!-- End of the image container -->
-						<h3>Kale Recipes</h3>
+						<h3 id="kale-recipes">Kale Recipes</h3>
 						<p>Here’s a little peek into my world of kale with some of my favorite ways to enjoy it in the
 							kitchen. Whether I’m indulging in a fresh salad, blending up a nourishing smoothie, or
 							creating a cozy bowl of soup, it's my little reminder that good food and good vibes go hand
@@ -92,7 +93,7 @@
 						<div class="image-container">
 							<img src="img/kale-salad.avif" alt="Kale salad" />
 						</div> <!-- End of the image container -->
-						<h3>Kale Nutrition Facts</h3>
+						<h3 id="kale-nutrition">Kale Nutrition Facts</h3>
 						<p>When I first discovered kale, I was blown away by its powerhouse nutrition. Can you believe
 							that a serving of raw kale is mostly water (about 84%) and yet it’s packed with essential
 							nutrients? It’s like nature’s little multivitamin and it makes me feel so balanced and ready
@@ -104,7 +105,7 @@
 				<div class="image-container">
 					<img src="img/kayle-portrait.jpg" alt="Lady holding salad" />
 				</div>
-				<h3>About Me</h3>
+				<h3 id="about-me">About Me</h3>
 				<p>Hi, I’m Kayle! I’m passionate about all things kale. My mission is to show the world just how
 					versatile and nutritious this leafy green can be. I aim to inspire healthier lifestyles one bite at
 					a time, whether that’s sharing delicious recipes or providing tips on how to incorporate kale in
@@ -121,27 +122,33 @@
 		<div class="bg-container">
 			<ol>
 				<li>
-					<a href="#" target="_blank">Home</a>
+					<a href="#kale-home">Home</a>
 				</li>
 				<li>
-					<a href="#" target="_blank">Recipes</a>
+					<a href="#kale-recipes">Recipes</a>
 				</li>
 				<li>
-					<a href="#" target="_blank">Nutrional Facts</a>
+					<a href="#kale-nutrition">Nutrional Facts</a>
 				</li>
 				<li>
-					<a href="#" target="_blank">Contact</a>
+					<a href="#about-me">Contact</a>
 				</li>
-				<li>
+				<!-- <li>
 					<a href="#" target="_blank">FAQs</a>
-				</li>
+				</li> -->
 			</ol>
 		</div>
 
 		<div class="privacy">
-			<a href="https://www.iubenda.com/privacy-policy/54702843" class="iubenda-black iubenda-noiframe iubenda-noiframe " title="Privacy Policy ">Privacy Policy |</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+			<a href="https://www.iubenda.com/privacy-policy/54702843"
+				class="iubenda-black iubenda-noiframe iubenda-noiframe " title="Privacy Policy ">Privacy Policy |</a>
+			<script
+				type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
 
-			<a href="https://www.iubenda.com/privacy-policy/54702843/cookie-policy" class="iubenda-black iubenda-noiframe  iubenda-noiframe " title="Cookie Policy "> Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+			<a href="https://www.iubenda.com/privacy-policy/54702843/cookie-policy"
+				class="iubenda-black iubenda-noiframe  iubenda-noiframe " title="Cookie Policy "> Cookie Policy</a>
+			<script
+				type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
 		</div>
 
 		<p class="footer-p">This site if for educational purposes only.</p>
