@@ -207,23 +207,23 @@ header {
 }
 
 button {
-    background-color: #2f5e36;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 1em;
+	background-color: #2f5e36;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	font-size: 1em;
 	border-radius: 5px;
 	transition: all ease 0.5s;
 	border: 2px solid #2f5e36;
-  }
+}
 
-  button:hover{
+button:hover {
 	background-color: #fff;
 	color: #2f5e36;
-	
+
 	border: 2px solid #2f5e36;
-  }
+}
 
 main,
 .bg-container {
@@ -261,6 +261,7 @@ article img {
 	width: 650px;
 }
 
+.inner-container,
 .width {
 	max-width: 650px;
 	margin: 0 auto;
