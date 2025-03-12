@@ -9,6 +9,7 @@ body {
 	font-size: 18px;
 	line-height: 1.5;
 	margin-bottom: 0.5rem;
+	background-color: #F4F7F3;
 }
 
 /* --- Responsive Sidebar navigation adapted from W3.CSS Templates --- */
@@ -245,13 +246,22 @@ main {
 
 article {
 	margin-bottom: 5rem;
-	background-color: tra;
+
 }
 
 article img {
 	border: none;
 	-webkit-box-shadow: 3px 3px 7px #777;
 	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+article.about-me,
+.nutrition-container,
+.recipes-container {
+	background-color: rgba(167, 201, 87, 0.1);
+	padding: 2rem;
+	border-radius: 20px;
+	padding-bottom: 0;
 }
 
 .image-container {
@@ -275,13 +285,13 @@ article img {
 	margin-bottom: 5rem;
 }
 
-.about-me svg{
+.about-me svg {
 	color: black;
 	width: 25px;
 	height: 25px;
 }
 
-.about-me svg:hover{
+.about-me svg:hover {
 	color: #2f5e36;
 }
 
@@ -327,52 +337,52 @@ footer .privacy {
 }
 
 .privacy-cookie {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin-top: 1rem;
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-top: 1rem;
 }
 
 /* Newsletter Section */
 .newsletter {
-    color: black;
-    text-align: center;
-    padding: 3rem 1rem;
+	color: black;
+	text-align: center;
+	padding: 3rem 1rem;
 }
 
 .newsletter h2 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
 }
 
 .newsletter p {
-    margin-bottom: 1.5rem;
-    font-size: 1rem;
+	margin-bottom: 1.5rem;
+	font-size: 1rem;
 }
 
 .newsletter-form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
 }
 
 .newsletter-form input {
-    padding: 0.8rem 1rem;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-size: 1rem;
+	padding: 0.8rem 1rem;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 1rem;
 }
 
 .newsletter-form button {
-    color: #fff;
-    border: none;
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+	color: #fff;
+	border: none;
+	padding: 0.8rem 1rem;
+	cursor: pointer;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	border: 2px solid #2f5e36;
 }
 
@@ -384,33 +394,33 @@ footer .privacy {
 
 /* Scroll to Top Button Styles */
 .scrollToTop {
-    position: fixed;
-    bottom: 70px;
-    right: 16px;
-    background-color: #2f5e36;
-    color: #fff;
-    box-shadow: 0 2px 19px rgba(0, 0, 0, 0.278);
-    border: none;
-    width: 34px;
-    height: 34px;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s, visibility 0.3s;
-    z-index: 1000;
+	position: fixed;
+	bottom: 70px;
+	right: 16px;
+	background-color: #2f5e36;
+	color: #fff;
+	box-shadow: 0 2px 19px rgba(0, 0, 0, 0.278);
+	border: none;
+	width: 34px;
+	height: 34px;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s, visibility 0.3s;
+	z-index: 1000;
 	padding: 0;
 }
 
 .scrollToTop svg {
-    width: 1rem;
-    height: 1rem;
+	width: 1rem;
+	height: 1rem;
 }
 
 .scrollToTop.show {
-    opacity: 1;
-    visibility: visible;
+	opacity: 1;
+	visibility: visible;
 }
 
 /* -- Code for the Cookie Compliance popover window -- */
