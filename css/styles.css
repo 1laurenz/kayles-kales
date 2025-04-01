@@ -557,8 +557,23 @@ span.active {
 	margin-top: 1rem;
 }
 
+.ad-container {
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.ad-container img {
+	display: inline-block;
+}
+
+.ad-description {
+	font-size: 0.9rem;
+	color: #777;
+	margin-top: 0.5rem;
+}
+
 /* Responsive Layouts */
-@media (min-width: 768px) {
+@media (min-width: 750px) {
 	.previews {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -581,7 +596,7 @@ span.active {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
 	.previews {
 		grid-template-columns: repeat(2, 1fr);
 	}
