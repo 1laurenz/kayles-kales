@@ -7,10 +7,20 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://kayleskales.netlify.app/</loc>
-  <lastmod>2025-03-28T21:14:27+00:00</lastmod>
-</url>
+  <!-- Home -->
+  <url>
+    <loc>https://kayleskales.netlify.app/</loc>
+    <lastmod>2025-04-15T17:00:00+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- What's New -->
+  <url>
+    <loc>https://kayleskales.netlify.app/whats-new.html</loc>
+    <lastmod>2025-04-15T17:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
 
 </urlset>
